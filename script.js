@@ -13,6 +13,8 @@ function sendPost(event) {
   postText.value = "";
 }
 
-function showPost(post){
-
+function showPost(post) {
+  const post = document.appendChild(
+    document.createElement("div").classList.add("post")
+  );
 }
